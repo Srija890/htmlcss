@@ -1,0 +1,113 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h1{
+  font-size: 100px;
+
+}
+
+/* Style the header */
+.hero-image {
+  margin-top: 1px;
+  background-image: url(../img/water.jpg);
+  height: 700px;
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+clear: both;
+
+}
+
+.row{
+  margin: auto;
+  clear: both;
+  overflow: hidden;
+  
+ 
+}
+.column{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  width:32.6%;
+  padding:10px;
+  margin-right: 10px;
+  border: 2px solid darkblue;
+  height:600px;
+
+}
+.image1{
+  background-image: url(../img/nature.jpg);
+  height:400px;
+  width:100%;
+}
+.image2{
+  background-image: url(../img/mountains.jpg);
+  height:400px;
+  width:100%;
+}
+.image3{
+  background-image: url(../img/lights.jpg);
+  height:400px;
+  width:100%;
+}
+
+.main-nav{
+  padding:5px 20px;
+  position:relative;
+  transform:translate(-10%,-10%);
+float: right;
+margin-top:-50px;
+border: 1px solid #fff;
+
+}
+.main-nav li:hover{
+  background-color:#fff;
+}
+li{
+  display: inline;
+  
+}
+.nav
+{
+    color:black;
+   padding: 5px 50px;
+    text-decoration: none;
+    font-family: "roboto",sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.content{
+  padding: 5px;
+  margin-top: 10px;
+}
+
+/* Create three equal columns that floats next to each other */
+
+
+/* Clear floats after the columns */
+
+/* Style the footer */
+.footer {
+  background-color:gray;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 90%) {
+  .column{
+    width: 100%;
+  }
+}
+
+
+
+
